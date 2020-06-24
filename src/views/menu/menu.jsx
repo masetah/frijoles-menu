@@ -10,6 +10,8 @@ import Grill from "../../components/grill";
 import Drinks from "../../components/drinks";
 import Desserts from "../../components/dessert";
 import Lunch from "../../components/lunch";
+import Cantina from "../../components/cantina";
+import AlaCart from "../../components/ala-cart";
 
 export default class Menu extends Component {
 
@@ -123,10 +125,10 @@ export default class Menu extends Component {
                             index ={8}
                             onClick= {this.handleClick}>
                                 <Icon name='dropdown' />
-                                Desserts
+                                Cantina
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 8}>
-                                <Desserts/>
+                                <Cantina/>
                             </Accordion.Content>
 
                             <Accordion.Title
@@ -134,10 +136,32 @@ export default class Menu extends Component {
                             index ={9}
                             onClick= {this.handleClick}>
                                 <Icon name='dropdown' />
-                                Lunch
+                                Desserts
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 9}>
+                                <Desserts/>
+                            </Accordion.Content>
+
+                            <Accordion.Title
+                            active={activeIndex === 10}
+                            index ={10}
+                            onClick= {this.handleClick}>
+                                <Icon name='dropdown' />
+                                Lunch
+                            </Accordion.Title>
+                            <Accordion.Content active={activeIndex === 10}>
                                 <Lunch/>
+                            </Accordion.Content>
+
+                            <Accordion.Title
+                            active={activeIndex === 11}
+                            index ={11}
+                            onClick= {this.handleClick}>
+                                <Icon name='dropdown' />
+                                Items A la Carte
+                            </Accordion.Title>
+                            <Accordion.Content active={activeIndex === 11}>
+                                <AlaCart/>
                             </Accordion.Content>
                     </Accordion>
                 </Container>
