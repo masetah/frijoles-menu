@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Header, Container, Item } from 'semantic-ui-react';
+import { Container, Item } from 'semantic-ui-react';
 
 let menuItemsJSON = require('./../menu-items.json');
 
@@ -21,7 +21,6 @@ class Lunch extends Component {
         return (
             <div className="lunch_items">
                 <Container>
-                <Header as='h2'>Lunch</Header>
                 <Item.Group divided = {true}>
                     {menuItems}
                 </Item.Group>
