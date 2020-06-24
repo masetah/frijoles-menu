@@ -599,5 +599,18 @@
         "image": "",
         "description":"A marinated top round steak topped with grilled onions and paired alongside a cheese enchilada with chili con carne sauce on top. Pollo Asada also available.",
         "price": 14.99
+    },
+    {
+        "itemId": 39,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Grilled Specialties",
+        "categoryId" : 6,
+        "menu-time" : "Dinner",
+        "menu-timeId" : 1,
+        "name": "Brochetas de Camaron",
+        "image": "",
+        "description":"Six jumbo bacon wrapped shrimp stuffed with mixed cheese and poblano pepper served with garlic butter sauce.",
+        "price": 16.99
     }    
 ]
