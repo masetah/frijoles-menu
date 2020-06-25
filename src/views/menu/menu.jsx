@@ -12,6 +12,7 @@ import Desserts from "../../components/dessert";
 import Lunch from "../../components/lunch";
 import Cantina from "../../components/cantina";
 import AlaCart from "../../components/ala-cart";
+import Banner from "../../components/banner";
 
 export default class Menu extends Component {
 
@@ -30,6 +31,7 @@ export default class Menu extends Component {
 
         return (
             <div className="menu">
+                <Banner/>
                 <Container>
                     <Accordion>
                         <Accordion.Title

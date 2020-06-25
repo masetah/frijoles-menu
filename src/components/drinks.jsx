@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Container, Item } from 'semantic-ui-react';
+import { Container, Grid, Header} from 'semantic-ui-react';
 
 let menuItemsJSON = require('./../menu-items.json');
 
@@ -8,23 +8,28 @@ class Drinks extends Component {
         const menuItems = menuItemsJSON.map((menuItem, index) => {
             // CategoryId for Drinks is 7
             if (menuItem.categoryId === 7) {
-                return <Item key ={index}>
-                <Item.Content>
-                    <Item.Header>{menuItem.name}</Item.Header>
-                    <Item.Description>{menuItem.description} {menuItem.price}</Item.Description>
-                </Item.Content>
-            </Item>
+                return <Container key = {index}>
+                    <Grid>
+                <Grid.Row>
+                  <Grid.Column width={13}>
+                    <Header size='medium'>{menuItem.name}</Header>
+                  </Grid.Column>
+                  <Grid.Column width={3}>
+                    <Header size='small'>{menuItem.price}</Header>
+                  </Grid.Column>
+                  <Grid.Column width={14}>
+                  <span>{menuItem.description}</span>
+                  </Grid.Column>
+                </Grid.Row>
+                </Grid>
+                </Container>
             } else {
                 return null
             }
         });
         return (
-            <div className="drinks">
-                <Container>
-                <Item.Group divided = {true}>
-                    {menuItems}
-                </Item.Group>
-                </Container>
+            <div className="drink_items">
+                {menuItems}
             </div>
         )
     }
