@@ -794,5 +794,35 @@
         "image": "",
         "description":"Six sweet Mexican pastries dusted with cinnamon sugar, served with honey and butter.",
         "price": ""
+    },
+    {
+        "itemId": 54,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch",
+        "categoryId" : 9,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Chile con Queso",
+        "image": "",
+        "description":"A cheesy Tex-Mex Staple!",
+        "price": 3.29,
+        "Modifier-1": "Make it a Bowl",
+        "Modifier-1-cost": 1.20,
+        "Modifier-2": "Add Ground Beef",
+        "Modifier-2-cost": 1.00
+    },
+    {
+        "itemId": 55,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch",
+        "categoryId" : 9,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Quesadillas",
+        "image": "",
+        "description": "A large flour tortilla buttered and stuffed with mixed cheeses, Tomatoes, chives, and your choice of fajita steak or chicken breast. Garnished with lettuce guacamole, and sour cream.",
+        "price": 7.49
     }
 ]

@@ -12,6 +12,7 @@ import Desserts from "../../components/dessert";
 import Lunch from "../../components/lunch";
 import Cantina from "../../components/cantina";
 import AlaCart from "../../components/ala-cart";
+import Banner from "../../components/banner";
 
 export default class Menu extends Component {
 
@@ -30,14 +31,14 @@ export default class Menu extends Component {
 
         return (
             <div className="menu">
+                <Banner/>
                 <Container>
                     <Accordion>
                         <Accordion.Title
                             active={activeIndex === 0}
                             index ={0}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Appetizers
+                                <Header size='large'><Icon name='dropdown' />Appetizers</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 0}>
                                 <Appetizers/>
@@ -47,8 +48,7 @@ export default class Menu extends Component {
                             active={activeIndex === 1}
                             index ={1}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Soups and Salads
+                                <Header size='large'><Icon name='dropdown' />Soups and Salads</Header>  
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 1}>
                                 <SoupSalad/>
@@ -58,8 +58,7 @@ export default class Menu extends Component {
                             active={activeIndex === 2}
                             index ={2}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Tacos
+                                <Header size='large'><Icon name='dropdown' />Tacos</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 2}>
                                 <Tacos/>
@@ -69,8 +68,7 @@ export default class Menu extends Component {
                             active={activeIndex === 3}
                             index ={3}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Enchiladas
+                                <Header size='large'><Icon name='dropdown' />Enchiladas</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 3}>
                                 <Enchiladas/>
@@ -80,8 +78,7 @@ export default class Menu extends Component {
                             active={activeIndex === 4}
                             index ={4}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Fajitas
+                                <Header size='large'><Icon name='dropdown' />Fajitas</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 4}>
                                 <Fajitas/>
@@ -91,8 +88,7 @@ export default class Menu extends Component {
                             active={activeIndex === 5}
                             index ={5}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                House Favorites
+                                <Header size='large'><Icon name='dropdown' />House Favorites</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 5}>
                                 <HouseFav/>
@@ -102,8 +98,7 @@ export default class Menu extends Component {
                             active={activeIndex === 6}
                             index ={6}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Grilled Specialties
+                                <Header size='large'><Icon name='dropdown'/>Grilled Specialties</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 6}>
                                 <Grill/>
@@ -113,8 +108,7 @@ export default class Menu extends Component {
                             active={activeIndex === 7}
                             index ={7}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Drinks
+                                <Header size='large'><Icon name='dropdown' />Drinks</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 7}>
                                 <Drinks/>
@@ -124,8 +118,7 @@ export default class Menu extends Component {
                             active={activeIndex === 8}
                             index ={8}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Cantina
+                                <Header size='large'><Icon name='dropdown' />Cantina</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 8}>
                                 <Cantina/>
@@ -135,8 +128,7 @@ export default class Menu extends Component {
                             active={activeIndex === 9}
                             index ={9}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Desserts
+                                <Header size='large'><Icon name='dropdown' />Desserts</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 9}>
                                 <Desserts/>
@@ -146,8 +138,7 @@ export default class Menu extends Component {
                             active={activeIndex === 10}
                             index ={10}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Lunch
+                                <Header size='large'><Icon name='dropdown' />Lunch</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 10}>
                                 <Lunch/>
@@ -157,8 +148,7 @@ export default class Menu extends Component {
                             active={activeIndex === 11}
                             index ={11}
                             onClick= {this.handleClick}>
-                                <Icon name='dropdown' />
-                                Items A la Carte
+                                <Header size='large'><Icon name='dropdown' />A la Carte</Header>
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 11}>
                                 <AlaCart/>
