@@ -6,7 +6,7 @@ class Banner extends Component {
     render() {
         return (
             <div className="banner">
-                <Image src={require('../assets/img/banner-img.png')} width='100%' alt="Frijoles-logo"></Image>
+                <Image src={require('../assets/img/banner-img.png')} centered rounded size='big' alt="Frijoles-logo"></Image>
             </div>
         )
     }
