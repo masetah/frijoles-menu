@@ -14,6 +14,7 @@ import Cantina from "../../components/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";
 import Footer from "../../components/footer";
+import Nav from "../../components/nav";
 
 export default class Menu extends Component {
 
@@ -32,9 +33,20 @@ export default class Menu extends Component {
 
         return (
             <div className="menu">
+                <Nav></Nav>
                 <Banner/>
-                <Container>
+                <Container className="menu_categories">
                     <Accordion>
+                    <Accordion.Title
+                            active={activeIndex === 7}
+                            index ={7}
+                            onClick= {this.handleClick}>
+                                <Header size='large'><Icon name='dropdown' />Drinks</Header>
+                            </Accordion.Title>
+                            <Accordion.Content active={activeIndex === 7}>
+                                <Drinks/>
+                            </Accordion.Content>
+
                         <Accordion.Title
                             active={activeIndex === 0}
                             index ={0}
@@ -103,16 +115,6 @@ export default class Menu extends Component {
                             </Accordion.Title>
                             <Accordion.Content active={activeIndex === 6}>
                                 <Grill/>
-                            </Accordion.Content>
-
-                            <Accordion.Title
-                            active={activeIndex === 7}
-                            index ={7}
-                            onClick= {this.handleClick}>
-                                <Header size='large'><Icon name='dropdown' />Drinks</Header>
-                            </Accordion.Title>
-                            <Accordion.Content active={activeIndex === 7}>
-                                <Drinks/>
                             </Accordion.Content>
 
                             <Accordion.Title
