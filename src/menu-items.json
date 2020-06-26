@@ -20,14 +20,12 @@
         "categoryId" : 0,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Chile Con Queso",
+        "name": "Queso",
         "image": "",
         "description":"A cheesy Tex-Mex Staple!",
-        "price": 4.49,
-        "Modifier-1": "Make it a Bowl",
-        "Modifier-1-cost": 2,
-        "Modifier-2": "Add Ground Beef",
-        "Modifier-2-cost": 1
+        "price": "Cup 4.49",
+        "price2": "Bowl 6.49"
+
     },
     {
         "itemId": 2,
@@ -150,7 +148,8 @@
         "name": "Tortilla Soup",
         "image": "",
         "description":"A Frijoles staple. Sure to warm your bones right up.",
-        "price": 5.00
+        "price": "Cup 4.99",
+        "price2": "Bowl 6.49"
     },
     {
         "itemId": 11,
@@ -378,9 +377,8 @@
         "name": "Chile Relleno Dinner",
         "image": "",
         "description":"Battered stuffed poblano pepper filled with mixed cheese and your choice of: ground beef, shredded chicken or extra cheese and covered in ranchero sauce.",
-        "price": 10.25,
-        "Modifier-1": "Add a second relleno",
-        "Modifier-1-cost": 5.25
+        "price": "One 10.25",
+        "price2": "Two 15.49"
     },
     {
         "itemId": 27,
@@ -675,8 +673,8 @@
         "menu-timeId" : 1,
         "name": "Fountain Drink",
         "image": "",
-        "description":"Coke, Sprite, Diet Coke, Dr. Pepper, Root Beer,  Minute-made Lemonade. Unlimited refills.",
-        "price": 1.99
+        "description":"Coke, Sprite, Diet Coke, Dr. Pepper, Barq's Root Beer,  Minute Maid Lemonade.",
+        "price": 2.39
     },
     {
         "itemId": 45,
@@ -689,7 +687,7 @@
         "name": "Fresh Brewed Iced Tea",
         "image": "",
         "description":"Non Sweetened and Sweetend Available. Unlimited refills.",
-        "price": 1.99
+        "price": 2.39
     },
     {
         "itemId": 46,
@@ -701,8 +699,8 @@
         "menu-timeId" : 1,
         "name": "Fresh Brewed Hot Coffee",
         "image": "",
-        "description":"Unlimited refills.",
-        "price": 1.99
+        "description":"",
+        "price": 2.39
     },
     {
         "itemId": 47,
@@ -714,11 +712,37 @@
         "menu-timeId" : 1,
         "name": "Bottled Mexican Soft Drink",
         "image": "",
-        "description":"Coke or Orange Fanta. No refills available.",
-        "price": 1.99
+        "description":"Coke or Orange Fanta.",
+        "price": 3.49
     },
     {
         "itemId": 48,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Drinks",
+        "categoryId" : 7,
+        "menu-time" : "Dinner",
+        "menu-timeId" : 1,
+        "name": "Bottled Jarritos",
+        "image": "",
+        "description":"Guava, Lime, Pineapple, Mandarin",
+        "price": 2.39
+    },
+    {
+        "itemId": 49,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Drinks",
+        "categoryId" : 7,
+        "menu-time" : "Dinner",
+        "menu-timeId" : 1,
+        "name": "Topo Chico",
+        "image": "",
+        "description":"12oz Glass Bottle",
+        "price": 2.39
+    },
+    {
+        "itemId": 50,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -731,7 +755,7 @@
         "price": ""
     },
     {
-        "itemId": 49,
+        "itemId": 51,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -744,7 +768,7 @@
         "price": ""
     },
     {
-        "itemId": 50,
+        "itemId": 52,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -757,7 +781,7 @@
         "price": ""
     },
     {
-        "itemId": 51,
+        "itemId": 53,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -770,7 +794,7 @@
         "price": ""
     },
     {
-        "itemId": 52,
+        "itemId": 54,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -783,7 +807,7 @@
         "price": ""
     },
     {
-        "itemId": 53,
+        "itemId": 55,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Desserts",
@@ -796,27 +820,25 @@
         "price": ""
     },
     {
-        "itemId": 54,
+        "itemId": 56,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Lunch",
+        "category" : "Lunch Appetizers",
         "categoryId" : 9,
         "menu-time" : "Lunch",
         "menu-timeId" : 0,
-        "name": "Chile con Queso",
+        "name": "Queso",
         "image": "",
         "description":"A cheesy Tex-Mex Staple!",
-        "price": 3.29,
-        "Modifier-1": "Make it a Bowl",
-        "Modifier-1-cost": 1.20,
-        "Modifier-2": "Add Ground Beef",
-        "Modifier-2-cost": 1.00
+        "price": "Cup 4.29",
+        "price2": "Bowl 5.49"
+
     },
     {
-        "itemId": 55,
+        "itemId": 57,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Lunch",
+        "category" : "Lunch Appetizers",
         "categoryId" : 9,
         "menu-time" : "Lunch",
         "menu-timeId" : 0,
@@ -824,5 +846,187 @@
         "image": "",
         "description": "A large flour tortilla buttered and stuffed with mixed cheeses, Tomatoes, chives, and your choice of fajita steak or chicken breast. Garnished with lettuce guacamole, and sour cream.",
         "price": 7.49
+    },
+    {
+        "itemId": 58,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Appetizers",
+        "categoryId" : 9,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Supreme Nachos",
+        "image": "",
+        "description": "Cripy corn tortillas covered in homemade refried beans, mixed cheese and your choice of seasoned ground beef or shredded chicken. Garnished with chopped lettuce, picked jalepenos, sour cream and fresh guacamole.",
+        "price": 7.99
+    },
+    {
+        "itemId": 59,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Appetizers",
+        "categoryId" : 9,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Fajita Nachos",
+        "image": "",
+        "description": "Cripy corn tortillas covered in homemade refried beans, mixed cheese and your choice of marinated flame grilled steak or juicy mesquite grilled chicken. Garnished with chopped lettuce, picked jalepenos, sour cream and fresh guacamole.",
+        "price": 8.99
+    },
+    {
+        "itemId": 60,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Sampler",
+        "image": "",
+        "description": "",
+        "price": 7.99
+    },
+    {
+        "itemId": 61,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "2 Item Combo",
+        "image": "",
+        "description": "",
+        "price": 7.99
+    },
+    {
+        "itemId": 62,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Taco Salad",
+        "image": "",
+        "description": "",
+        "price": 7.99
+    },
+    {
+        "itemId": 63,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Fajita Salad",
+        "image": "",
+        "description": "",
+        "price": 8.99
+    },
+    {
+        "itemId": 64,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Chile Relleno",
+        "image": "",
+        "description": "",
+        "price": 8.99
+    },
+    {
+        "itemId": 65,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Fajitas",
+        "image": "",
+        "description": "",
+        "price": 10.49
+    },
+    {
+        "itemId": 66,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Acapulco",
+        "image": "",
+        "description": "",
+        "price": 10.99
+    },
+    {
+        "itemId": 67,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Fish Tacos",
+        "image": "",
+        "description": "",
+        "price": 8.99
+    },
+    {
+        "itemId": 68,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Supreme Enchiladas",
+        "image": "",
+        "description": "",
+        "price": 9.99
+    },
+    {
+        "itemId": 69,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Lunch Durango",
+        "image": "",
+        "description": "",
+        "price": 10.99
+    },
+    {
+        "itemId": 70,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Chimichanga",
+        "image": "",
+        "description": "",
+        "price": 9.49
+    },
+    {
+        "itemId": 71,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Lunch Specials",
+        "categoryId" : 11,
+        "menu-time" : "Lunch",
+        "menu-timeId" : 0,
+        "name": "Arroz con Pollo",
+        "image": "",
+        "description": "",
+        "price": 10.49
     }
 ]
