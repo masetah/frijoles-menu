@@ -7,10 +7,11 @@ import Enchiladas from "../../components/enchiladas";
 import Fajitas from "../../components/fajitas";
 import HouseFav from "../../components/house-fav";
 import Grill from "../../components/grill";
+import FromGrill from "../../components/from-grill";
 import Drinks from "../../components/drinks";
 import Desserts from "../../components/dessert";
 import Lunch from "../../components/lunch/lunch";
-import Cantina from "../../components/cantina";
+import Cantina from "../../components/cantina/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";
 import Footer from "../../components/footer";
@@ -44,6 +45,16 @@ export default class Menu extends Component {
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 7}>
                         <Drinks/>
+                    </Accordion.Content>
+
+                    <Accordion.Title
+                        active={activeIndex === 8}
+                        index ={8}
+                        onClick= {this.handleClick}>
+                        <Header size='large'><Icon name='dropdown' />Cantina</Header>
+                    </Accordion.Title>
+                    <Accordion.Content active={activeIndex === 8}>
+                        <Cantina/>
                     </Accordion.Content>
 
                     <Accordion.Title
@@ -117,13 +128,13 @@ export default class Menu extends Component {
                     </Accordion.Content>
 
                     <Accordion.Title
-                        active={activeIndex === 8}
-                        index ={8}
+                        active={activeIndex === 13}
+                        index ={13}
                         onClick= {this.handleClick}>
-                        <Header size='large'><Icon name='dropdown' />Cantina</Header>
+                        <Header size='large'><Icon name='dropdown'/>From the Grill</Header>
                     </Accordion.Title>
-                    <Accordion.Content active={activeIndex === 8}>
-                        <Cantina/>
+                    <Accordion.Content active={activeIndex === 13}>
+                        <FromGrill/>
                     </Accordion.Content>
 
                     <Accordion.Title

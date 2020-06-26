@@ -39,6 +39,21 @@ class Appetizers extends Component {
                             <Grid.Column width={16}>
                                 <span>{menuItem.description}</span>
                             </Grid.Column>
+                            <Grid.Column width={4}>
+                                <b style={{float:'right'}}>{menuItem.modifier_price}</b>
+                            </Grid.Column>
+                            <Grid.Column width={12}>
+                                <b>{menuItem.modifier2}</b>
+                            </Grid.Column>
+                            <Grid.Column width={4}>
+                                <b style={{float:'right'}}>{menuItem.modifier_price2}</b>
+                            </Grid.Column>
+                            <Grid.Column width={12}>
+                                <b>{menuItem.modifier3}</b>
+                            </Grid.Column>
+                            <Grid.Column width={4}>
+                                <b style={{float:'right'}}>{menuItem.modifier_price3}</b>
+                            </Grid.Column>
                         </Grid.Row> 
                     </Grid>
                 </Container>

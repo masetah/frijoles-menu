@@ -38,7 +38,13 @@
         "name": "Nachos",
         "image": "",
         "description":"A Tex Mex favorite! Tortilla chips covered with homemade refried beans, Monterrey jack cheese and cheddar cheese. Garnished with lettuce, jalapeños, guacamole, and sour cream.",
-        "price": 8.49
+        "price": 8.49,
+        "modifier": "Substitute ground beef or shredded chicken.",
+        "modifier_price": 9.99,
+        "modifier2": "Substitute fajita steak or chicken.  ",
+        "modifier_price2": 11.25,
+        "modifier3": "Substitute shrimp. ",
+        "modifier_price3": 12.50
     },
     {
         "itemId": 3,
@@ -89,10 +95,10 @@
         "categoryId" : 0,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Table-side Guac",
+        "name": "Mexican Shrimp Cocktail",
         "image": "",
-        "description":"Guacamole doesn’t get any fresher than this! Prepared right at your table.",
-        "price": 9.99
+        "description":"Tasty shrimp tossed in homemade Mexican cocktail sauce with cilantro, pico de gallo, and fresh avacado. Served with extra crunchy flour tortilla chips.",
+        "price": 9.49
     },
     {
         "itemId": 7,
@@ -226,11 +232,24 @@
         "menu-timeId" : 1,
         "name": "Fajitas",
         "image": "",
-        "description":"A Mexican classic! Tender marinated steak or juicy chicken breast on top of a bed of sizzling onions and bell peppers. Complimented with diced tomatoes.",
+        "description":"A Mexican classic! Tender marinated steak, juicy chicken breast, pulled pork, susage or a combination of two served on top of a bed of sizzling onions and bell peppers. Complimented with diced tomatoes.",
         "price": 14.99
     },
     {
         "itemId": 17,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "Fajitas",
+        "categoryId" : 4,
+        "menu-time" : "Dinner",
+        "menu-timeId" : 1,
+        "name": "Triple Meat Fajitas",
+        "image": "",
+        "description":"Our classic fajitas with an extra helping of meat. Choose three different meats (Steak, Chicken, Shrimp, Susage, or pulled pork) and we'll served them on top of a bed of sizzling onions and bell peppers with diced tomatoes on top.",
+        "price": 16.99
+    },
+    {
+        "itemId": 18,
         "online-availability": true,
         "dineIn-availability": true,
         "category" : "Fajitas",
@@ -243,19 +262,6 @@
         "price": 15.99
     },
     {
-        "itemId": 18,
-        "online-availability": true,
-        "dineIn-availability": true,
-        "category" : "Fajitas",
-        "categoryId" : 4,
-        "menu-time" : "Dinner",
-        "menu-timeId" : 1,
-        "name": "Triple Meat Fajitas",
-        "image": "",
-        "description":"Our classic fajitas with an extra helping of meat. Choose three different meats (Steak, Chicken, Shrimp, or Susage) and we'll served them on top of a bed of sizzling onions and bell peppers.",
-        "price": 16.99
-    },
-    {
         "itemId": 19,
         "online-availability": true,
         "dineIn-availability": true,
@@ -263,10 +269,10 @@
         "categoryId" : 4,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Susage Fajitas",
+        "name": "",
         "image": "",
-        "description":" Succulent seasoned sausage on top of a bed of onions and peppers.",
-        "price": 14.99
+        "description":"",
+        "price": ""
     },
     {
         "itemId": 20,
@@ -278,7 +284,7 @@
         "menu-timeId" : 1,
         "name": "Fajitas for Two",
         "image": "",
-        "description":"A double portion of our classic fajitas (Steak, Chicken or Combo) on one big sizzling skillet.",
+        "description":"A double portion of our classic fajitas (Steak, chicken, pulled pork, susage or a combination of 2) on one big sizzling skillet.",
         "price": 26.99
     },
     {
@@ -338,7 +344,7 @@
         "name": "Enchilada-Fajita Montada",
         "image": "",
         "description":"Two classic cheese enchiladas smothered in queso and topped with your choice of either: diced steak and grilled onions or diced chicken and sautéed mushrooms.",
-        "price": 10.99
+        "price": 11.99
     },
     {
         "itemId": 24,
@@ -392,24 +398,11 @@
         "image": "",
         "description":"One beast of a burrito! A large flour tortilla stuffed with refried beans, cheese and your choice of meat, then covered with your favorite sauce. (Queso, Chile, Sour Cream, Verde, or Ranchero)",
         "price": 11.49,
-        "Modifier-1": "Ground Beef",
-        "Modifier-1-cost": 0,
-        "Modifier-2": "Shredded Chicken",
-        "Modifier-2-cost": 0,
-        "Modifier-3": "Substitute Ground Beef/Shredded Chicken Combo",
-        "Modifier-3-cost": 0,
-        "Modifier-4": "Substitute Fajita Steak",
-        "Modifier-4-cost": 1.50,
-        "Modifier-5": "Substitute Fajita Chicken",
-        "Modifier-5-cost": 1.50,
-        "Modifier-6": "Substitute Fajita Steak/Chicken Combo",
-        "Modifier-6-cost": 1.50,
-        "Modifier-7": "Substitute Barbacoa",
-        "Modifier-7-cost": 1.50,
-        "Modifier-8": "Substitute Carnitas",
-        "Modifier-8-cost": 1.50,
-        "Modifier-9": "Substitute Barbacoa/Carnitas Combo",
-        "Modifier-9-cost": 1.50
+        "modifier": "Substitute fajita steak or chicken. ",
+        "modifier_price": 12.99,
+        "modifier2": "Substitute barbacoa or carnitas. ",
+        "modifier_price2": 12.99
+
     },
     {
         "itemId": 28,
@@ -423,24 +416,10 @@
         "image": "",
         "description":"Crispy goodness! A large flour tortilla, filled with Mexican rice, mixed cheese and your choice of meat, rolled then deep-fried until golden brown and smothered in creamy queso sauce.",
         "price": 11.99,
-        "Modifier-1": "Ground Beef",
-        "Modifier-1-cost": 0,
-        "Modifier-2": "Shredded Chicken",
-        "Modifier-2-cost": 0,
-        "Modifier-3": "Substitute Ground Beef/Shredded Chicken Combo",
-        "Modifier-3-cost": 0,
-        "Modifier-4": "Substitute Fajita Steak",
-        "Modifier-4-cost": 1.50,
-        "Modifier-5": "Substitute Fajita Chicken",
-        "Modifier-5-cost": 1.50,
-        "Modifier-6": "Substitute Fajita Steak/Chicken Combo",
-        "Modifier-6-cost": 1.50,
-        "Modifier-7": "Substitute Barbacoa",
-        "Modifier-7-cost": 1.50,
-        "Modifier-8": "Substitute Carnitas",
-        "Modifier-8-cost": 1.50,
-        "Modifier-9": "Substitute Barbacoa/Carnitas Combo",
-        "Modifier-9-cost": 1.50
+        "modifier": "Substitute fajita steak or chicken. ",
+        "modifier_price": 12.99,
+        "modifier2": "Substitute barbacoa or carnitas. ",
+        "modifier_price2": 12.99
     },
     {
         "itemId": 29,
@@ -511,11 +490,11 @@
         "itemId": 32,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "House Favorites",
-        "categoryId" : 5,
+        "category" : "From the Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Rio Grande Combination Platter",
+        "name": "Rio Grande",
         "image": "",
         "description":"A tostada with four bacon wrapped shrimp stuffed with jack cheese and poblano pepper paired with your choice of enchilada smothered in your favorite sauce.",
         "price": 15.99
@@ -589,8 +568,8 @@
         "itemId": 38,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From The Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Carne Asada",
@@ -602,8 +581,8 @@
         "itemId": 39,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From the Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Brochetas de Camaron",
@@ -615,8 +594,8 @@
         "itemId": 40,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From the Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Arroz con Pollo",
@@ -628,8 +607,8 @@
         "itemId": 41,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From The Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Pollo Adobe",
@@ -641,8 +620,8 @@
         "itemId": 42,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From the Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Mesquite Grilled Chicken",
@@ -654,8 +633,8 @@
         "itemId": 43,
         "online-availability": true,
         "dineIn-availability": true,
-        "category" : "Grilled Specialties",
-        "categoryId" : 6,
+        "category" : "From the Grill",
+        "categoryId" : 13,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
         "name": "Steak Ranchero",
@@ -845,7 +824,7 @@
         "name": "Quesadillas",
         "image": "",
         "description": "A large flour tortilla buttered and stuffed with mixed cheeses, Tomatoes, chives, and your choice of fajita steak or chicken breast. Garnished with lettuce guacamole, and sour cream.",
-        "price": 7.49
+        "price": 8.49
     },
     {
         "itemId": 58,
@@ -936,6 +915,8 @@
         "name": "Chile Relleno",
         "image": "",
         "description": "A battered poblano pepper filled with cheese that is deep fried and smothered in ranchero sauce.",
+        "modifier": "Add Ground Beef or Shredded Chicken",
+        "modifier_price": 0.99,
         "price": 8.99
     },
     {

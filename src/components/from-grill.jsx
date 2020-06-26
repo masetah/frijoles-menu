@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import { Container, Grid, Header} from 'semantic-ui-react';
+import { Container, Grid, Header } from 'semantic-ui-react';
 
 let menuItemsJSON = require('./../menu-items.json');
 
-class Cantina extends Component {
+class FromGrill extends Component {
     render() {
         const menuItems = menuItemsJSON.map((menuItem, index) => {
-            // CategoryId for Cantina is 10
-            if (menuItem.categoryId === 10) {
+            // CategoryId for Grill is 6
+            if (menuItem.categoryId === 6) {
                 return <Container key = {index}>
                     <Grid>
                 <Grid.Row>
@@ -28,11 +28,14 @@ class Cantina extends Component {
             }
         });
         return (
-            <div className="cantina-items">
+            <div className="grilled_items">
+                <Container>
+                    <Header align='center' size='tiny'>From the Grill plates come with seasoned mixed veggies (Broccoli, carrots, and zucchini) and Mexican rice. Garnished with fresh guacamole.</Header>
+                </Container>
                 {menuItems}
             </div>
         )
     }
 }
 
-export default Cantina;
+export default FromGrill;
