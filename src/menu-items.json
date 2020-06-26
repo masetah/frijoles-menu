@@ -883,7 +883,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Sampler",
         "image": "",
-        "description": "",
+        "description": "Ground beef nachos, shredded chicken quesadillas, and a chicken flauta farnished with chopped lettuce, pickled jalepenos, sour cream, and fresh guacamole.",
         "price": 7.99
     },
     {
@@ -896,7 +896,7 @@
         "menu-timeId" : 0,
         "name": "2 Item Combo",
         "image": "",
-        "description": "",
+        "description": "Choose 2 of the following: cheese enchilada, ground beef enchilada, shredded chicken enchilada, spinach enchilada, soft beef taco, crispy beef taco, soft shredded chicken taco, or crispy shredded chicken taco.",
         "price": 7.99
     },
     {
@@ -909,7 +909,7 @@
         "menu-timeId" : 0,
         "name": "Taco Salad",
         "image": "",
-        "description": "",
+        "description": "A large taco bowl shell filled with chopped lettuce, diced tomatoes, and shredded cheddar cheese, topped with your choice of seasoned ground beef or shredded chicken. Garnished with crispy tortilla strips, fresh guacamole and you favorite salad dressing.",
         "price": 7.99
     },
     {
@@ -922,7 +922,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Fajita Salad",
         "image": "",
-        "description": "",
+        "description": "Juicy strips of fajita steak or chicken on top of chopped lettuce, diced tomatoes and shredded cheddar chesse.",
         "price": 8.99
     },
     {
@@ -935,7 +935,7 @@
         "menu-timeId" : 0,
         "name": "Chile Relleno",
         "image": "",
-        "description": "",
+        "description": "A battered poblano pepper filled with cheese that is deep fried and smothered in ranchero sauce.",
         "price": 8.99
     },
     {
@@ -948,7 +948,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Fajitas",
         "image": "",
-        "description": "",
+        "description": "Tender marinated steak, juicy chicken breast, pulled pork or susage on top of a bed of sizzling onions, bell peppers and topped with diced tomatoes. Garnished with guacamole, and pico de gallo.",
         "price": 10.49
     },
     {
@@ -961,7 +961,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Acapulco",
         "image": "",
-        "description": "",
+        "description": "A cheese chile relleno covered in ranchero sauce, a crispy beef taco, and a beef tostada.",
         "price": 10.99
     },
     {
@@ -974,7 +974,7 @@
         "menu-timeId" : 0,
         "name": "Fish Tacos",
         "image": "",
-        "description": "",
+        "description": "Two soft tacos filled with seasoned Tilapia, shredded lettuce, pico de gallo and green onions. Garnished with fresh lemon wedges and a side of creamy cilantro sauce.",
         "price": 8.99
     },
     {
@@ -987,7 +987,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Supreme Enchiladas",
         "image": "",
-        "description": "",
+        "description": "Two rolled corned tortillas, filled with your choice of barbacoa, carnitas, fajita steak, or fajita chicken and smothered in queso.",
         "price": 9.99
     },
     {
@@ -1000,7 +1000,7 @@
         "menu-timeId" : 0,
         "name": "Lunch Durango",
         "image": "",
-        "description": "",
+        "description": "A chile cheese rello covered in ranchero sauce, chicken enchilada smothered in sour cream sauce, and a beef tostada. ",
         "price": 10.99
     },
     {
@@ -1013,7 +1013,7 @@
         "menu-timeId" : 0,
         "name": "Chimichanga",
         "image": "",
-        "description": "",
+        "description": "A large flour tortilla, filled with Mexican rice, mixed cheese and your choice of meat, rolled then deep-fried until golden brown and smothered in creamy queso sauce.",
         "price": 9.49
     },
     {
@@ -1026,7 +1026,163 @@
         "menu-timeId" : 0,
         "name": "Arroz con Pollo",
         "image": "",
-        "description": "",
+        "description": "Strips of tender chicken breast on top of a bed of rice and smothered in our chili con queso sauce completed with a cup of tortilla soup.",
         "price": 10.49
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Rice",
+        "image": "",
+        "description": "",
+        "price": 1.49
+    },
+    {
+        "itemId": 73,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Beans",
+        "image": "",
+        "description": "",
+        "price": 1.49
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Veggies",
+        "image": "",
+        "description": "",
+        "price": 3.25
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Shredded Cheese",
+        "image": "",
+        "description": "",
+        "price": 0.99
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Sour Cream",
+        "image": "",
+        "description": "",
+        "price": 0.99
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Guacamole",
+        "image": "",
+        "description": "",
+        "price": 1.75
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Queso",
+        "image": "",
+        "description": "",
+        "price": 1.25
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Side of Tortillas (3)",
+        "image": "",
+        "description": "",
+        "price": 0.99
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Single Cheese Chile Relleno",
+        "image": "",
+        "description": "",
+        "price": 5.25
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Single Enchilada",
+        "image": "",
+        "description": "",
+        "price": 2.99
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Single Taco",
+        "image": "",
+        "description": "",
+        "price": 2.99
+    },
+    {
+        "itemId": 72,
+        "online-availability": true,
+        "dineIn-availability": true,
+        "category" : "A la Carte",
+        "categoryId" : 12,
+        "menu-time" : "",
+        "menu-timeId" : "",
+        "name": "Single fajita taco",
+        "image": "",
+        "description": "",
+        "price": 3.49
     }
 ]
