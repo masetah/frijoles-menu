@@ -11,14 +11,14 @@ class HouseFav extends Component {
               return <Container key = {index}>
                   <Grid>
                       <Grid.Row>
-                          <Grid.Column width={10}>
+                          <Grid.Column width={8}>
                               <Header size='medium'>{menuItem.name}</Header>
                           </Grid.Column>
-                          <Grid.Column width={3} align='right'>
-                              <Header size='small'>{menuItem.price}</Header>
+                          <Grid.Column width={4} align='right'>
+                              <Header size='tiny'>{menuItem.price}</Header>
                           </Grid.Column>
-                          <Grid.Column width={3} align='right'>
-                              <Header size='small'>{menuItem.price2}</Header>
+                          <Grid.Column width={4} align='right'>
+                              <Header size='tiny'>{menuItem.price2}</Header>
                           </Grid.Column>
                           <Grid.Column width={16}>
                               <span>{menuItem.description}</span>

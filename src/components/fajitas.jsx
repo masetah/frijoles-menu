@@ -29,6 +29,7 @@ class Fajitas extends Component {
         });
         return (
             <div className="fajita_items">
+                <Header align='center' size='tiny'>Fajita plates come with your choice of beans (refried, charro or black) and spanish rice. Garnished with pico de gallo, guacamole and tortillas.</Header>
                 {menuItems}
             </div>
         )

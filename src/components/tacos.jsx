@@ -29,6 +29,7 @@ class Tacos extends Component {
         });
         return (
             <div className="taco_items">
+                <Header align='center' size='tiny'>All taco plates come with your choice of beans (refried, charro or black) and spanish rice.</Header>
                 {menuItems}
             </div>
         )
