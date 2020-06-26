@@ -39,6 +39,18 @@ class HouseFav extends Component {
                           <Grid.Column width={16}>
                               <span>{menuItem.description}</span>
                           </Grid.Column>
+                          <Grid.Column width={12}>
+                                <b>{menuItem.modifier}</b>
+                            </Grid.Column>
+                            <Grid.Column width={4}>
+                                <b style={{float:'right'}}>{menuItem.modifier_price}</b>
+                            </Grid.Column>
+                            <Grid.Column width={12}>
+                                <b>{menuItem.modifier2}</b>
+                            </Grid.Column>
+                            <Grid.Column width={4}>
+                                <b style={{float:'right'}}>{menuItem.modifier_price2}</b>
+                            </Grid.Column>
                       </Grid.Row> 
                   </Grid>
               </Container>
@@ -48,7 +60,10 @@ class HouseFav extends Component {
       });
         return (
             <div className="house_favorite_items">
-                {menuItems}
+              <Container>
+                <Header align='center' size='tiny'>House Favorites come with your choice of beans (refried, charro or black) and Mexican rice. Garnished with fresh guacamole.</Header>
+              </Container>
+              {menuItems}
             </div>
         )
     }
