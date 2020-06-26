@@ -6,8 +6,8 @@ let menuItemsJSON = require('./../menu-items.json');
 class AlaCart extends Component {
     render() {
         const menuItems = menuItemsJSON.map((menuItem, index) => {
-            // CategoryId for Ala Cart is 11
-            if (menuItem.categoryId === 11) {
+            // CategoryId for Ala Cart is 12
+            if (menuItem.categoryId === 12) {
                 return <Container key = {index}>
                     <Grid>
                 <Grid.Row>
