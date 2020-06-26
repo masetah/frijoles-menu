@@ -9,7 +9,7 @@ import HouseFav from "../../components/house-fav";
 import Grill from "../../components/grill";
 import Drinks from "../../components/drinks";
 import Desserts from "../../components/dessert";
-import Lunch from "../../components/lunch";
+import Lunch from "../../components/lunch/lunch";
 import Cantina from "../../components/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";

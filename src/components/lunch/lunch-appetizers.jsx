@@ -1,24 +1,24 @@
 import React, {Component} from 'react';
 import { Container, Grid, Header } from 'semantic-ui-react';
 
-let menuItemsJSON = require('./../menu-items.json');
+let menuItemsJSON = require('../../menu-items.json');
 
-class SoupSalad extends Component {
+class LunchApps extends Component {
     render() {
         const menuItems = menuItemsJSON.map((menuItem, index) => {
-            // CategoryId for Soup/Salad is 1
-            if (menuItem.categoryId === 1 && menuItem.price2) {
+            // CategoryId for Lunch Appetizers is 9
+            if (menuItem.categoryId === 9 && menuItem.price2) {
                 return <Container key = {index}>
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column width={6}>
-                                <Header size='medium'>{menuItem.name}</Header>
+                            <Grid.Column width={8}>
+                                <Header size='small'>{menuItem.name}</Header>
                             </Grid.Column>
-                            <Grid.Column width={5} align='right'>
-                                <Header size='small'>{menuItem.price}</Header>
+                            <Grid.Column width={4} align='right'>
+                                <Header size='tiny'>{menuItem.price}</Header>
                             </Grid.Column>
-                            <Grid.Column width={5} align='right'>
-                                <Header size='small'>{menuItem.price2}</Header>
+                            <Grid.Column width={4} align='right'>
+                                <Header size='tiny'>{menuItem.price2}</Header>
                             </Grid.Column>
                             <Grid.Column width={16}>
                                 <span>{menuItem.description}</span>
@@ -26,15 +26,15 @@ class SoupSalad extends Component {
                         </Grid.Row> 
                     </Grid>
                 </Container>
-            }  if (menuItem.categoryId === 1 && !menuItem.price2) {
+            }  if (menuItem.categoryId === 9 && !menuItem.price2) {
                 return <Container key = {index}>
                     <Grid>
                         <Grid.Row>
                             <Grid.Column width={11}>
-                                <Header size='medium'>{menuItem.name}</Header>
+                                <Header size='small'>{menuItem.name}</Header>
                             </Grid.Column>
                             <Grid.Column width={5} align='right'>
-                                <Header size='small'>{menuItem.price}</Header>
+                                <Header size='tiny'>{menuItem.price}</Header>
                             </Grid.Column>
                             <Grid.Column width={16}>
                                 <span>{menuItem.description}</span>
@@ -47,11 +47,12 @@ class SoupSalad extends Component {
             }
         });
         return (
-            <div className="soup_salas_items">
+            <div className="lunch_appetizer_items">
+                <Header size='medium'>Appetizers</Header>
                 {menuItems}
             </div>
         )
     }
 }
 
-export default SoupSalad;
+export default LunchApps;
