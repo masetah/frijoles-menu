@@ -11,13 +11,13 @@ class LunchApps extends Component {
                 return <Container key = {index}>
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={7}>
                                 <Header size='small'>{menuItem.name}</Header>
                             </Grid.Column>
                             <Grid.Column width={4} align='right'>
                                 <Header size='tiny'>{menuItem.price}</Header>
                             </Grid.Column>
-                            <Grid.Column width={4} align='right'>
+                            <Grid.Column width={5} align='right'>
                                 <Header size='tiny'>{menuItem.price2}</Header>
                             </Grid.Column>
                             <Grid.Column width={16}>
@@ -47,7 +47,7 @@ class LunchApps extends Component {
             }
         });
         return (
-            <div className="lunch_appetizer_items">
+            <div>
                 <Header size='medium'>Appetizers</Header>
                 {menuItems}
             </div>

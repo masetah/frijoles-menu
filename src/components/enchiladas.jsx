@@ -28,10 +28,12 @@ class Enchiladas extends Component {
             }
         });
         return (
-            <div className="enchilada_items">
+            <div>
+                <div style={{paddingBottom:'15px'}}>
                 <Container>
                     <Header align='center' size='tiny'>Enchilada plates come with your choice of beans (refried, charro or black) and Mexican rice.</Header>
                 </Container>
+                </div>
                 {menuItems}
             </div>
         )

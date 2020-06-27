@@ -28,13 +28,19 @@ class Fajitas extends Component {
             }
         });
         return (
-            <div className="fajita_items">
-                <Container>
-                    <Header align='center' size='tiny'>Fajita plates come with your choice of beans (refried, charro or black) and Mexican rice. Garnished with pico de gallo and guacamole. Served with flour and/or corn tortillas.</Header>
-                    <Header size='tiny'>Add shredded cheese and sour cream for 2.00. </Header>
-                    <Header size='tiny'>Add 4 jumbo shrimp for 7.50. </Header>
-                </Container>
+            <div>
+                <div style={{paddingBottom:'10px'}} align='center'>
+                    <Container>
+                        <Header align='center' size='tiny'>Fajita plates come with your choice of beans (refried, charro or black) and Mexican rice. Garnished with pico de gallo and guacamole. Served with flour and/or corn tortillas.</Header>
+                    </Container>
+                </div>
                 {menuItems}
+                <div style={{paddingTop:'15px'}} align='center'>
+                    <b>Add shredded cheese and sour cream for 2.00.</b>
+                </div>
+                <div style={{paddingTop:'15px'}} align='center'>
+                    <b>Add 4 jumbo shrimp for 7.50. </b>
+                </div>
             </div>
         )
     }

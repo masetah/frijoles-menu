@@ -59,10 +59,12 @@ class HouseFav extends Component {
           }
       });
         return (
-            <div className="house_favorite_items">
-              <Container>
-                <Header align='center' size='tiny'>House Favorites come with your choice of beans (refried, charro or black) and Mexican rice. Garnished with fresh guacamole.</Header>
-              </Container>
+            <div>
+              <div style={{paddingBottom:'15px'}}>
+                <Container>
+                  <Header align='center' size='tiny'>House Favorites come with your choice of beans (refried, charro or black) and Mexican rice. Garnished with fresh guacamole.</Header>
+                </Container>
+              </div>
               {menuItems}
             </div>
         )
