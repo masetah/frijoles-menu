@@ -28,10 +28,12 @@ class FromGrill extends Component {
             }
         });
         return (
-            <div className="grilled_items">
-                <Container>
-                    <Header align='center' size='tiny'>From the Grill plates come with seasoned mixed veggies (Broccoli, carrots, and zucchini) and Mexican rice. Garnished with fresh guacamole.</Header>
-                </Container>
+            <div>
+                <div style={{paddingBottom:'15px'}}>
+                    <Container>
+                        <Header align='center' size='tiny'>From the Grill plates come with seasoned mixed veggies (Broccoli, carrots, and zucchini) and Mexican rice. Garnished with fresh guacamole.</Header>
+                    </Container>
+                </div>
                 {menuItems}
             </div>
         )

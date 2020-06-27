@@ -44,7 +44,7 @@
         "modifier2": "Substitute fajita steak or chicken.  ",
         "modifier_price2": 11.25,
         "modifier3": "Substitute shrimp. ",
-        "modifier_price3": 12.50
+        "modifier_price3": 12.49
     },
     {
         "itemId": 3,
@@ -663,9 +663,9 @@
         "categoryId" : 7,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Fresh Brewed Iced Tea",
+        "name": "Iced Tea",
         "image": "",
-        "description":"Non Sweetened and Sweetend Available. Unlimited refills.",
+        "description":"Fresh brewed tea available in unsweetened and sweetend.",
         "price": 2.39
     },
     {
@@ -676,9 +676,9 @@
         "categoryId" : 7,
         "menu-time" : "Dinner",
         "menu-timeId" : 1,
-        "name": "Fresh Brewed Hot Coffee",
+        "name": "Hot Coffee",
         "image": "",
-        "description":"",
+        "description":"Fresh brewed Community brand hot coffee.",
         "price": 2.39
     },
     {
