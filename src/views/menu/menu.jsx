@@ -14,7 +14,7 @@ import Lunch from "../../components/lunch/lunch";
 // import Cantina from "../../components/cantina/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";
-// import Footer from "../../components/footer";
+import Footer from "../../components/footer";
 // import Nav from "../../components/nav";
 
 export default class Menu extends Component {
@@ -168,7 +168,7 @@ export default class Menu extends Component {
                         <AlaCart/>
                     </Accordion.Content>
                 </Accordion>
-                {/* <Footer/> */}
+                <Footer/>
                 </div>
             </div> 
         );
