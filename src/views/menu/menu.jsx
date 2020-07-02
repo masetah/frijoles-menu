@@ -11,7 +11,7 @@ import FromGrill from "../../components/from-grill";
 import Drinks from "../../components/drinks";
 import Desserts from "../../components/dessert";
 import Lunch from "../../components/lunch/lunch";
-import Cantina from "../../components/cantina/cantina";
+// import Cantina from "../../components/cantina/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";
 // import Footer from "../../components/footer";
@@ -33,10 +33,10 @@ export default class Menu extends Component {
         const { activeIndex } = this.state
 
         return (
-            <div className="menu">
+            <div style={{marginBottom:'75px'}}>
                 {/* <Nav/> */}
                 <Banner/>
-                <div style={{paddingTop:'25px'}}>
+                <div style={{paddingTop:'35px'}}>
                 <Accordion>
                     <Accordion.Title
                         active={activeIndex === 7}
@@ -48,7 +48,7 @@ export default class Menu extends Component {
                         <Drinks/>
                     </Accordion.Content>
 
-                    <Accordion.Title
+                    {/* <Accordion.Title
                         active={activeIndex === 8}
                         index ={8}
                         onClick= {this.handleClick}>
@@ -56,7 +56,7 @@ export default class Menu extends Component {
                     </Accordion.Title>
                     <Accordion.Content active={activeIndex === 8}>
                         <Cantina/>
-                    </Accordion.Content>
+                    </Accordion.Content> */}
 
                     <Accordion.Title
                         active={activeIndex === 0}

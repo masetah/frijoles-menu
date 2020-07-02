@@ -11,13 +11,13 @@ class Beer extends Component {
                 return <Container key = {index}>
                     <Grid>
                         <Grid.Row>
-                            <Grid.Column width={8}>
+                            <Grid.Column width={6}>
                                 <Header size='small'>{cantinaItem.name}</Header>
                             </Grid.Column>
-                            <Grid.Column width={4} align='right'>
+                            <Grid.Column width={5} align='right'>
                                 <Header size='tiny'>{cantinaItem.price}</Header>
                             </Grid.Column>
-                            <Grid.Column width={4} align='right'>
+                            <Grid.Column width={5} align='right'>
                                 <Header size='tiny'>{cantinaItem.price2}</Header>
                             </Grid.Column>
                             <Grid.Column width={16}>
@@ -47,8 +47,8 @@ class Beer extends Component {
             }
         });
         return (
-            <div className="lunch_appetizer_items">
-                <Header size='medium'>Beer</Header>
+            <div style={{paddingTop:'15px'}}>
+                <Header size='large' align='center'>Beer</Header>
                 {cantinaItems}
             </div>
         )

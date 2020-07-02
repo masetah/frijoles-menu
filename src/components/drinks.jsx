@@ -28,7 +28,7 @@ class Drinks extends Component {
             }
         });
         return (
-            <div className="drink_items">
+            <div style={{}}>
                 {menuItems}
             </div>
         )
