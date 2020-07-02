@@ -8,7 +8,7 @@ class Footer extends Component {
             <div style={{marginTop:'25px'}}>
                 <Grid columns={1} textAlign='center' className="footer">
                     <Grid.Row>
-                        <a href='https://www.masetaherian.com/' target='none'>Designed by: MaseTaherian.com</a>
+                        <a href='https://www.masetaherian.com/' target='none'>Created by: MaseTaherian.com</a>
                     </Grid.Row>
                 </Grid>
             </div>
