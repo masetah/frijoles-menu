@@ -47,9 +47,13 @@ class HappyHour extends Component {
             }
         });
         return (
-            <div className="lunch_appetizer_items">
-                <Header size='medium'>Happy Hour</Header>
-                <Header size='tiny' align='center'>Monday-Friday 11am-7pm</Header>
+            <div>
+                <div style={{paddingBottom:'10px'}}>
+                <Header size='large' align='center'>Happy Hour
+                    <Header size='tiny' align='center'>Monday-Friday 11am-7pm</Header>
+                </Header>
+                </div>
+                
                 {cantinaItems}
             </div>
         )
