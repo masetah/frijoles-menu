@@ -53,7 +53,7 @@ class LunchSpecials extends Component {
             }
         });
         return (
-            <div className="lunch_special_items" >
+            <div style={{marginTop:'15px'}} >
                 <Header size='medium'>Lunch Favorites</Header>
                 {menuItems}
             </div>
