@@ -33,7 +33,7 @@ export default class Menu extends Component {
         const { activeIndex } = this.state
 
         return (
-            <div style={{marginBottom:'75px'}}>
+            <div style={{marginBottom:'75px', maxWidth:'100%', overflowX:'hidden'}}>
                 {/* <Nav/> */}
                 <Banner/>
                 <div style={{paddingTop:'35px'}}>
@@ -168,8 +168,8 @@ export default class Menu extends Component {
                         <AlaCart/>
                     </Accordion.Content>
                 </Accordion>
-                <Footer/>
                 </div>
+                <Footer/>
             </div> 
         );
     }
