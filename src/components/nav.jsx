@@ -25,7 +25,7 @@ class Nav extends Component {
                     />
                 </Link>
 
-                <Link to='/gallery'>
+                {/* <Link to='/gallery'>
                     <Menu.Item
                     name='Gallery'
                     active={activeItem === 'gallery'}
@@ -55,7 +55,7 @@ class Nav extends Component {
                     active={activeItem === 'covid19'}
                     onClick={this.handleItemClick}
                     />
-                </Link>
+                </Link> */}
             </Menu>
         )
     }
