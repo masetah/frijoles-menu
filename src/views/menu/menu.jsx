@@ -14,8 +14,6 @@ import Lunch from "../../components/lunch/lunch";
 // import Cantina from "../../components/cantina/cantina";
 import AlaCart from "../../components/ala-cart";
 import Banner from "../../components/banner";
-import Footer from "../../components/footer";
-// import Nav from "../../components/nav";
 
 export default class Menu extends Component {
 
@@ -33,8 +31,7 @@ export default class Menu extends Component {
         const { activeIndex } = this.state
 
         return (
-            <div style={{marginBottom:'75px', maxWidth:'100%', overflowX:'hidden'}}>
-                {/* <Nav/> */}
+            <div style={{marginBottom:'75px'}}>
                 <Banner/>
                 <div style={{paddingTop:'35px'}}>
                 <Accordion>
@@ -169,7 +166,6 @@ export default class Menu extends Component {
                     </Accordion.Content>
                 </Accordion>
                 </div>
-                <Footer/>
             </div> 
         );
     }
