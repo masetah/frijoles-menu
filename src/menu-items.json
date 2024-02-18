@@ -10,7 +10,7 @@
         "name": "Appetizer Sampler",
         "image": "",
         "description":"Our most popular appetizer. Ground beef nachos, shredded chicken quesadillas, and chicken flautas garnished with guacamole, sour cream and jalapenos on a bed of lettuce. No substitutions please.",
-        "price": 12.49
+        "price": 13.99
     },
     {
         "itemId": 1,
@@ -23,8 +23,8 @@
         "name": "Queso",
         "image": "",
         "description":"A cheesy Tex-Mex Staple!",
-        "price": "Cup 4.49",
-        "price2": "Bowl 6.49"
+        "price": "Cup 5.49",
+        "price2": "Bowl 7.49"
 
     },
     {
@@ -38,13 +38,13 @@
         "name": "Nachos",
         "image": "",
         "description":"A Tex Mex favorite! Tortilla chips covered with homemade refried beans, Monterrey jack cheese and cheddar cheese. Garnished with lettuce, jalapeños, guacamole, and sour cream.",
-        "price": 8.49,
+        "price": 10.49,
         "modifier": "Substitute ground beef or shredded chicken.",
-        "modifier_price": 10.49,
+        "modifier_price": 12.99,
         "modifier2": "Substitute fajita steak or chicken.  ",
-        "modifier_price2": 11.25,
+        "modifier_price2": 14.50,
         "modifier3": "Substitute shrimp. ",
-        "modifier_price3": 12.49
+        "modifier_price3": 16.99
     },
     {
         "itemId": 3,
@@ -57,7 +57,7 @@
         "name": "Quesadillas",
         "image": "",
         "description":"A large flour tortilla buttered and stuffed with mixed cheeses, Tomatoes, chives, and your choice of fajita steak or chicken breast. Garnished with lettuce guacamole, and sour cream.",
-        "price": 10.99,
+        "price": 11.99,
         "Modifier-1": "Substitute Shrimp",
         "Modifier-1-cost": 1
     },
@@ -72,7 +72,7 @@
         "name": "Queso Fundido",
         "image": "",
         "description":"Mixed cheeses, fresh Pico do Gallo, grilled bell pepper, and your choice of fajita steak, chicken, set ABLAZE at your table by server. Served with flour tortillas.",
-        "price": 9.99
+        "price": 11.99
     },
     {
         "itemId": 5,
@@ -85,7 +85,7 @@
         "name": "Seven Layer Dip",
         "image": "",
         "description":"A scrumptious bowl of layered dips! Our queso mixed with cheese, refried beans, and ground beef topped with guacamole, sour cream and jalapeños.",
-        "price": 8.49
+        "price": 10.99
     },
     {
         "itemId": 6,
@@ -98,7 +98,7 @@
         "name": "Mexican Shrimp Cocktail",
         "image": "",
         "description":"Tasty shrimp tossed in homemade Mexican cocktail sauce with cilantro, pico de gallo, and fresh avacado. Served with extra crunchy flour tortilla chips.",
-        "price": 9.49
+        "price": 10.50
     },
     {
         "itemId": 7,
@@ -111,11 +111,11 @@
         "name": "Fajita Salad",
         "image": "",
         "description":"A fresh bed of chopped lettuce topped with your choice fajita steak or chicken and completed with diced tomatoes, bell peppers and cheddar cheese. Comes with your choice of dressing.",
-        "price": 9.99,
+        "price": 12.99,
         "Modifier-1": "Served in a Taco Shell",
         "Modifier-1-cost": 1,
         "Modifier-2": "Substitute Shrimp",
-        "Modifier-2-cost": 2
+        "Modifier-2-cost": 1
     },
     {
         "itemId": 8,
@@ -128,7 +128,7 @@
         "name": "Sizzling Grilled Salad",
         "image": "",
         "description":"Fresh chopped lettuce, carrot strips, red cabbage, mixed cheeses, sliced avocados and tomato wedges completed at your table with sizzling fajita steak or chicken and grilled onions.",
-        "price": 11.49
+        "price": 13.99
     },
     {
         "itemId": 9,
@@ -141,7 +141,7 @@
         "name": "Taco Salad",
         "image": "",
         "description":"A large taco bowl shell filled with chopped lettuce, diced tomatoes, mixed cheese and topped with your choice of ground beef, shredded chicken. Garnished with tortilla strips, fresh guacamole, and a side of dressing.",
-        "price": 9.49
+        "price": 11.49
     },
     {
         "itemId": 10,
@@ -154,8 +154,8 @@
         "name": "Tortilla Soup",
         "image": "",
         "description":"A Frijoles staple. Sure to warm your bones right up.",
-        "price": "Cup 4.99",
-        "price2": "Bowl 6.49"
+        "price": "Cup 6.99",
+        "price2": "Bowl 8.99"
     },
     {
         "itemId": 11,
@@ -168,7 +168,7 @@
         "name": "Tacos al Carbon",
         "image": "",
         "description":"Three rolled flour tortillas filled with diced fajita steak or juicy chicken breast and garnished with shredded cheddar cheese, Pico de Gallo and fresh guacamole.",
-        "price": 11.99
+        "price": 14.99
     },
     {
         "itemId": 12,
@@ -181,7 +181,7 @@
         "name": "Street Tacos",
         "image": "",
         "description":"Three corn tortillas filled with slow roasted shredded beef (Barbacoa) or seasoned pulled pork (Carnitas), topped with fresh cilantro and chopped white onions. Garnished with fresh lime wedges, fired-roasted salsa and guacamole.",
-        "price": 11.99
+        "price": 14.99
     },
     {
         "itemId": 13,
@@ -194,7 +194,7 @@
         "name": "Fish Tacos",
         "image": "",
         "description":"Three soft flour tortillas filled with our specially seasoned Tilapia, shredded lettuce, chives and Pico de Gallo. Garnished with fresh lemon wedges and a side of creamy cilantro sauce.",
-        "price": 11.99
+        "price": 14.49
     },
     {
         "itemId": 14,
@@ -207,7 +207,7 @@
         "name": "Shrimp Tacos",
         "image": "",
         "description":"Three soft flour tortillas filled with garlic butter pan seared shrimp and topped with lettuce, Pico de Gallo and a slice of avocado. Garnished with a side of fire-roasted salsa.",
-        "price": 11.99
+        "price": 14.99
     },
     {
         "itemId": 15,
@@ -220,7 +220,7 @@
         "name": "Taco Dinner",
         "image": "",
         "description":"Three tacos (soft or crispy) filled with lettuce, tomatoes, and cheddar cheese with your choice of shredded chicken or ground beef.",
-        "price": 10.99
+        "price": 13.49
     },
     {
         "itemId": 16,
@@ -233,7 +233,7 @@
         "name": "Fajitas",
         "image": "",
         "description":"A Mexican classic! Tender marinated steak, juicy chicken breast, pulled pork, susage or a combination of two served on top of a bed of sizzling onions and bell peppers. Complimented with diced tomatoes.",
-        "price": 14.99
+        "price": 18.49
     },
     {
         "itemId": 17,
@@ -246,7 +246,7 @@
         "name": "Triple Meat Fajitas",
         "image": "",
         "description":"Our classic fajitas with an extra helping of meat. Choose three different meats (Steak, Chicken, Shrimp, Susage, or pulled pork) and we'll served them on top of a bed of sizzling onions and bell peppers with diced tomatoes on top.",
-        "price": 16.99
+        "price": 20.99
     },
     {
         "itemId": 18,
@@ -259,7 +259,7 @@
         "name": "Shrimp Fajitas",
         "image": "",
         "description":"Tasty jumbo shrimp sautéed in garlic butter and served on top of a bed of sizzling onions and bell peppers, a scrumptious twist on a classic.",
-        "price": 15.99
+        "price": 19.99
     },
     {
         "itemId": 19,
@@ -285,7 +285,7 @@
         "name": "Fajitas for Two",
         "image": "",
         "description":"A double portion of our classic fajitas (Steak, chicken, pulled pork, susage or a combination of 2) on one big sizzling skillet.",
-        "price": 26.99
+        "price": 33.99
     },
     {
         "itemId": 21,
@@ -298,7 +298,7 @@
         "name": "Enchilada Dinner",
         "image": "",
         "description":"Mix and match your favorite three enchiladas and sauces. Choose from: cheese, seasoned ground beef, seasoned shredded chicken, or fresh spinach.",
-        "price": 10.99,
+        "price": 13.49,
         "Modifier-1": "Queso",
         "Modifier-1-cost": 0,
         "Modifier-2": "Sour Cream Sauce",
@@ -321,7 +321,7 @@
         "name": "Supreme Enchilada Dinner",
         "image": "",
         "description":"Two rolled corn tortillas filled with your choice of: barbacoa, carnitas, fajita steak, shrimp, or chicken then covered in your favorite sauce(s). Garnished with fresh guacamole.",
-        "price": 11.99,
+        "price": 14.49,
         "Modifier-1": "Queso",
         "Modifier-1-cost": 0,
         "Modifier-2": "Sour Cream Sauce",
@@ -344,7 +344,7 @@
         "name": "Enchilada-Fajita Montada",
         "image": "",
         "description":"Two classic cheese enchiladas smothered in queso and topped with your choice of either: diced steak and grilled onions or diced chicken and sautéed mushrooms.",
-        "price": 11.99
+        "price": 14.99
     },
     {
         "itemId": 24,
@@ -357,7 +357,7 @@
         "name": "Flauta Dinner",
         "image": "",
         "description":"Three rolled flour tortillas stuffed with cheese and filled with your choice fajita steak or chicken, then deep-fried until crispy. Garnished with guacamole, sour cream and queso.",
-        "price": 11.49
+        "price": 14.99
     },
     {
         "itemId": 25,
@@ -370,7 +370,7 @@
         "name": "Tamale Dinner",
         "image": "",
         "description":"A Tex-Mex staple! Two of our giant homemade beef Tamales, served with a cup chili con carne that is garnished with shredded cheese chives and diced tomatoes.",
-        "price": 11.99
+        "price": 14.49
     },
     {
         "itemId": 26,
@@ -382,8 +382,8 @@
         "menu-timeId" : 1,
         "name": "Chile Rellenos",
         "image": "",
-        "description":"Battered stuffed poblano pepper filled with mixed cheese and your choice of: ground beef, shredded chicken or extra cheese and covered in ranchero sauce.",
-        "price": "One 10.25",
+        "description":"Battered stuffed poblano pepper filled with mixed cheese and covered in ranchero sauce.",
+        "price": "One 14.49",
         "price2": "Two 15.49"
     },
     {
