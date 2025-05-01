@@ -655,7 +655,7 @@
         "name": "Fountain Drink",
         "image": "",
         "description":"Coke, Sprite, Diet Coke, Dr. Pepper, Barq's Root Beer,  Minute Maid Lemonade.",
-        "price": 3.50
+        "price": 3.65
     },
     {
         "itemId": 45,
@@ -668,7 +668,7 @@
         "name": "Iced Tea",
         "image": "",
         "description":"Fresh brewed tea available in unsweetened and sweetend.",
-        "price": 3.50
+        "price": 3.65
     },
     {
         "itemId": 46,
@@ -681,7 +681,7 @@
         "name": "Hot Coffee",
         "image": "",
         "description":"Fresh brewed Community brand hot coffee.",
-        "price": 3.50
+        "price": 3.65
     },
     {
         "itemId": 47,
@@ -720,7 +720,7 @@
         "name": "Topo Chico",
         "image": "",
         "description":"12oz Glass Bottle",
-        "price": 3.50
+        "price": 3.65
     },
     {
         "itemId": 50,
